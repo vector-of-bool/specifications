@@ -154,3 +154,21 @@ This should be an anon inline link with a split target: `Link text 2`__
 __ https://github.com/
 
 .. _link-name1: https://wikipedia.org
+
+
+Inline roles
+============
+
+.. role:: python-code(code)
+    :language: python
+
+Here are some inline roles:
+
+- Literal: :literal:`some literal text`
+- Code: :code:`foo(bar, baz=24)`
+- Python code: :python-code:`import sys; sys.exit(42); foo(bar='baz')`
+- Italic: :emphasis:`Emphasized`
+- Bold: :strong:`Strong text`
+- Superscript: E = mc\ :superscript:`2`
+- Subscript: H\ :subscript:`2`\ O
+- Math: :math:`E = mc^2`
